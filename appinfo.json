@@ -1,0 +1,71 @@
+{
+    "version" : {
+        "ios" : "1.0.21",
+        "android" : "1.0.21",
+        "ext": "1.0.21",
+        "description": {
+            "ko": "메일 카운트 웹서비스 호출 URL 변경",
+            "en": "Changed WebService URL about Unread mail count."
+        }
+    },
+    "minVersion": {
+        "ios" : "1.0.18",
+        "android" : "1.0.18",
+        "ext": "1.0.18",
+        "description": {
+            "ko": "G-Suite 전환에 따른 앱 수정",
+            "en": "support for G-Suite Mail "
+        }
+    },
+    "notics":[
+        {
+            "targets":[
+                "1.0.10",
+                "1.0.11"
+            ],
+            "startDate":"2017-12-04",
+            "endDate":"2018-01-02",
+            "en":{
+                "title":"Notics",
+                "message":"When using mHanway app on network outside the company from January 2, 2018, it will be changed to be available after connecting the mobile VPN for security.\nWe will provide additional information regarding the VPN account.",
+                "ok":"OK",
+                "cancel":""
+            },
+            "ko":{
+                "title":"알림",
+                "message":"2018.1.2일 부로 사외에서 mHanway 앱에 접속 시, 보안을 위해 모바일 VPN을 연결한 후에 사용이 가능하도록 변경될 예정입니다.\nVPN 계정 지급 관련해서는 업연으로 별도 안내 드리겠습니다.",
+                "ok":"확인",
+                "cancel":""
+            }
+        }
+    ],
+    "entcode" : [
+        {"code":"KE","name":"대한항공","domain":"koreanair.com"},
+        {"code":"HJ","name":"한진","domain":"hanjin.co.kr"},
+        {"code":"HT","name":"한진정보","domain":"hist.co.kr"},
+        {"code":"KT","name":"한진관광","domain":"kaltour.com"},
+        {"code":"K1","name":"토파스","domain":"topas.net"},
+        {"code":"LJ","name":"진에어","domain":"jinair.com"},
+        {"code":"IJ","name":"정석인하학원","domain":"e-foundation.or.kr"},
+        {"code":"UC","name":"유니컨버스","domain":"uniconverse.com"},
+        {"code":"KS","name":"한국공항","domain":"kas.co.kr"},
+        {"code":"JS","name":"정석기업","domain":"jungseok.co.kr"},
+        {"code":"IH","name":"인하대병원","domain":"inhauh.com"},
+        {"code":"IU","name":"인하대학교","domain":"inha.ac.kr"},
+        {"code":"KU","name":"항공대학교","domain":"kau.ac.kr"},
+        {"code":"IC","name":"인하공업전문대학","domain":"inhatc.ac.kr"},
+        {"code":"HK","name":"한진칼","domain":"hanjinkal.com"},
+        {"code":"SN","name":"한진해운신항만","domain":"hjnc.co.kr"},
+        {"code":"TC","name":"한진인천컨테이너터미널","domain":"hjit.co.kr"},
+        {"code":"AK","name":"에어코리아","domain":"airkorea.biz"},
+        {"code":"IA","name":"Incheon Aviation Tech.","domain":"iaviationtech.com"},
+        {"code":"WS","name":"왕산레저개발","domain":"wsmarina.com"},
+        {"code":"TX","name":"트랙슨","domain":"traxon.co.kr"},
+        {"code":"IM","name":"인하국제의료센터","domain":"inhaim.com"},
+        {"code":"KH","name":"칼호텔네트워크","domain":"kalhotelnetwork.com"}
+    ],
+    "language" : [
+        {"title":"한국어","code":"KOR","locale":"ko-KR"},
+        {"title":"English","code":"ENG","locale":"en-US"}
+    ]
+}
