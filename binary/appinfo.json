@@ -1,0 +1,77 @@
+{
+    "version" : {
+        "ios" : "1.0.17",
+        "android" : "1.0.17",
+        "ext": "1.0.17",
+        "description": {
+            "ko": "엔터프라이즈 앱 정기 배포(갱신)",
+            "en": "Update Apps due to expired it."
+        }
+    },
+    "minVersion": {
+        "ios" : "1.0.17",
+        "android" : "1.0.17",
+        "ext": "1.0.17",
+        "description": {
+            "ko": "엔터프라이즈 앱 정기 배포(갱신)",
+            "en": "Updated Apps due to expired it."
+        }
+    },
+    "notics":[
+        {
+            "targets":[
+                "1.0.14",
+                "1.0.15",
+		"1.0.16",
+            ],
+            "targetOS":[
+                "iOS",
+                "android",
+                "ext"
+           ],
+            "startDate":"2018-10-31",
+            "endDate":"2018-10-31",
+            "ko":{
+                "title":"알림",
+                "message":"iOS 단말의 경우, 앱 업데이트(1.0.15)가 정상적으로 이루어지지 않은경우 앱을 삭제 후 재설치 하세요.",
+                "ok":"확인",
+                "cancel":""
+            },
+            "en":{
+                "title":"Notification",
+                "message":"For iOS devices, if an app update(1.0.15) is not successful, please delete the app and reinstall it.",
+                "ok":"OK",
+                "cancel":""
+            }
+        }
+    ],
+    "entcode" : [
+        {"code":"KE","name":"대한항공","domain":"koreanair.com"},
+        {"code":"HJ","name":"한진","domain":"hanjin.co.kr"},
+        {"code":"HT","name":"한진정보","domain":"hist.co.kr"},
+        {"code":"KT","name":"한진관광","domain":"kaltour.com"},
+        {"code":"K1","name":"토파스","domain":"topas.net"},
+        {"code":"LJ","name":"진에어","domain":"jinair.com"},
+        {"code":"IJ","name":"정석인하학원","domain":"e-foundation.or.kr"},
+        {"code":"UC","name":"유니컨버스","domain":"uniconverse.com"},
+        {"code":"KS","name":"한국공항","domain":"kas.co.kr"},
+        {"code":"JS","name":"정석기업","domain":"jungseok.co.kr"},
+        {"code":"IH","name":"인하대병원","domain":"inhauh.com"},
+        {"code":"IU","name":"인하대학교","domain":"inha.ac.kr"},
+        {"code":"KU","name":"항공대학교","domain":"kau.ac.kr"},
+        {"code":"IC","name":"인하공업전문대학","domain":"inhatc.ac.kr"},
+        {"code":"HK","name":"한진칼","domain":"hanjinkal.com"},
+        {"code":"SN","name":"한진해운신항만","domain":"hjnc.co.kr"},
+        {"code":"TC","name":"한진인천컨테이너터미널","domain":"hjit.co.kr"},
+        {"code":"AK","name":"에어코리아","domain":"airkorea.biz"},
+        {"code":"IA","name":"Incheon Aviation Tech.","domain":"iaviationtech.com"},
+        {"code":"WS","name":"왕산레저개발","domain":"wsmarina.com"},
+        {"code":"TX","name":"트랙슨","domain":"traxon.co.kr"},
+        {"code":"IM","name":"인하국제의료센터","domain":"inhaim.com"},
+        {"code":"KH","name":"칼호텔네트워크","domain":"kalhotelnetwork.com"}
+    ],
+    "language" : [
+        {"title":"한국어","code":"KOR","locale":"ko-KR"},
+        {"title":"English","code":"ENG","locale":"en-US"}
+    ]
+}
