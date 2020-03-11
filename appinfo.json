@@ -9,12 +9,12 @@
         }
     },
     "minVersion": {
-        "ios" : "1.0.18",
-        "android" : "1.0.18",
-        "ext": "1.0.18",
+        "ios" : "1.0.21",
+        "android" : "1.0.21",
+        "ext": "1.0.21",
         "description": {
-            "ko": "G-Suite 전환에 따른 앱 수정",
-            "en": "support for G-Suite Mail "
+            "ko": "메일 카운트 웹서비스 호출 URL 변경",
+            "en": "Changed WebService URL about Unread mail count."
         }
     },
     "notics":[
